@@ -1,0 +1,70 @@
+body {
+    background-color: cadetblue;
+    align-content: center;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#controls {
+    margin: 0px 50px;
+    align-content: center;
+}
+
+#controls h1 {
+    width: 250px;
+    font-size: 31px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+#controls input {
+    margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px
+}
+
+#addButton {
+    background-color: mediumblue;
+}
+
+#removeButton {
+    background-color: indianred;
+}
+
+#removeAllButton {
+    background-color: red;
+}
+
+#list {
+    margin: auto;
+}
+
+#list li {
+    width: 80%;
+    height: 30px;
+    text-align: left;
+    border: 2px dotted grey;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    vertical-align: middle;
+    line-height: 30px;
+    height: 100%;
+    margin: 0 auto;
+
+}
